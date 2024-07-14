@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  height: 300px;
+  width: 33%;
+  float: left;
+  border: 2px, solid, blue;
+  padding: 50px;
+  box-sizing: border-box;
+}
+#firstbox {
+  background-color: #bbb;
+}
+#secondbox {
+  background-color: #ccc;
+}
+#thirdbox {
+  background-color: #ddd;
+}
+.firstpara {
+  clear: both;
+}
+.three::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.image-container {
+    float: left;
+    width: 33.33%;
+    
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

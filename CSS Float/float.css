@@ -52,3 +52,9 @@ div.fourth {
     border: 3px solid red;
     clear: left;
   }
+
+  .pineapple4 {
+    float: right;
+    overflow: auto;
+  }
+ 
