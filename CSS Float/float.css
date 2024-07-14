@@ -1,0 +1,54 @@
+img {
+    height: 200px;
+    width: 250px;
+    float: right;
+    margin: 15px;
+}
+img.pineapple {
+    height: 300px;
+    width:250px;
+    float:left;
+    margin: 20px;
+}
+div {
+    float:left;
+    padding: 15px;
+    
+}
+div.first {
+    background-color: red;
+}
+div.second {
+    background-color: green;
+   
+}
+div.third {
+    background-color: black;
+}
+div.fourth {
+    background-color: purple;
+}
+
+/* div 1, div2, div3, div4 */
+.div1 {
+    float: left;
+    padding: 10px;
+    border: 3px solid #73AD21;
+  }
+  
+  .div2 {
+    padding: 10px;
+    border: 3px solid red;
+  }
+  
+  .div3 {
+    float: left;
+    padding: 10px;  
+    border: 3px solid #73AD21;
+  }
+  
+  .div4 {
+    padding: 10px;
+    border: 3px solid red;
+    clear: left;
+  }
