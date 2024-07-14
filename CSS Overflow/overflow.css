@@ -1,0 +1,19 @@
+div {
+    height: 600px;
+    width: 200px;
+    background-color: white;
+    border: 2px,solid,black;
+    position: relative;
+    overflow-x:scroll;
+    border-top: none;
+    border-left: none;
+}
+h2 {
+    position: sticky;
+    top: 0px;
+    border: 2px,solid,black;
+    font-size: small;
+    z-index: 20;
+    
+
+}
